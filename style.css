@@ -1,48 +1,110 @@
 .hero{
     display: grid;
-    grid-template:repeat(60,10px)/ repeat(45,10px);
+    grid-template:repeat(14,30px)/ repeat(16,30px);
 }
-
 
 .row1{
-    grid-column: 22/span 2;
+    grid-column: 6 / span 5;
     grid-row: 1;
-    background-color: black;
-
+    background-color: red;
 }
 .row2{
-    grid-column: 23/span 2;
-    grid-row: 2;
-    background-color: rgb(128, 128, 128);
-
+    grid-column: 13/ span 3;
+    grid-row: 1;
+    background-color: beige;
 }
 .row3{
-    grid-column: 25;
+    grid-column: 5 / span 9;
     grid-row: 2;
-    background-color: black;
-
+    background-color: red;
 }
 .row4{
-    grid-column: 22;
+    grid-column: 14 / span 2;
     grid-row: 2;
-    background-color: black;
-
+    background-color: beige;
 }
 .row5{
-    grid-column: 7/span 7;
+    grid-column: 5 / span 3;
     grid-row: 3;
-    background-color: black;
-
+    background-color: brown;
 }
 .row6{
-    grid-column: 22/span 2;
-    grid-row: 1;
-    background-color: black;
-
+    grid-column: 8/ span 2;
+    grid-row: 3;
+    background-color: beige;
 }
 .row7{
-    grid-column: 22/span 2;
-    grid-row: 1;
-    background-color: black;
-
+    grid-column: 10;
+    grid-row: 3;
+    background-color: rgb(0, 0, 0);
+}
+.row8{
+    grid-column: 11;
+    grid-row: 3;
+    background-color: beige;
+}
+.row9{
+    grid-column: 12 ;
+    grid-row: 3;
+    background-color: rgb(0, 0, 0);
+}
+.row10{
+    grid-column: 13 / span 3;
+    grid-row: 3;
+    background-color: rgb(255, 0, 0);
+}
+.row11{
+    grid-column: 4;
+    grid-row: 4;
+    background-color: brown;
+}
+.row12{
+    grid-column: 5;
+    grid-row: 4;
+    background-color: beige;
+}
+.row13{
+    grid-column: 6;
+    grid-row: 4;
+    background-color: brown;
+}
+.row14{
+    grid-column: 7/ span 3;
+    grid-row: 4;
+    background-color: beige;
+}
+.row15{
+    grid-column: 10;
+    grid-row: 4;
+    background-color: rgb(0, 0, 0);
+}
+.row16{
+    grid-column: 11/span 3;
+    grid-row: 4;
+    background-color: beige;
+}
+.row17{
+    grid-column: 14/span 2;
+    grid-row: 4;
+    background-color: red;
+}
+.row18{
+    grid-column: 4;
+    grid-row: 5;
+    background-color: brown;
+}
+.row19{
+    grid-column: 5;
+    grid-row: 5;
+    background-color: beige;
+}
+.row20{
+    grid-column: 6/ span 2;
+    grid-row: 5;
+    background-color: brown;
+}
+.row21{
+    grid-column:8 / span 3;
+    grid-row: 5;
+    background-color: beige;
 }
