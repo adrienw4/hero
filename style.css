@@ -5,6 +5,7 @@ body{
     place-items: center;
     height: 100vh;
     margin: 0;
+    
 }
 
 .hero{
@@ -303,4 +304,28 @@ body{
     grid-column: 4 / span 2;
     background-color: brown;
     grid-row: 14;
+}
+@keyframes move {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(100)
+        
+    }
+    75%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.hero{
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
