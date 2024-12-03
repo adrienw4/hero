@@ -325,7 +325,7 @@ body{
 }
 .hero{
     animation-name: move;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
